@@ -26,7 +26,11 @@ production stylesheet in assets/built/screen.css using gulp dev
 body {
   /* font-family: 'Muli', sans-serif; */
   font-family: var(--font-sans-serif);
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
+  background-image: url("/bg-mobile-4x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   transition: background 0.3s ease-out;
   transition-delay: 0.25;
 }

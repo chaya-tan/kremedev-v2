@@ -8,6 +8,9 @@ const Layout = props => {
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
         <div className="site-head-container">
+          <div>
+            <img src="/kreme-logo-light.svg" className="nav-logo" />
+          </div>
           <div
             className="nav-burger"
             // href={`https://www.google.co.th`}
@@ -40,12 +43,12 @@ const Layout = props => {
               </li>
             </ul>
           </nav>
-          <div className="site-head-center">
+          {/* <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
               {title}
             </Link>
-          </div>
-          <div className="site-head-right">
+          </div> */}
+          {/* <div className="site-head-right">
             <div className="social-links">
               <a
                 href="https://www.facebook.com"
@@ -80,7 +83,7 @@ const Layout = props => {
                 GitHub
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </header>
       <main id="site-main" className="site-main">

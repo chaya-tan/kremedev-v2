@@ -21,14 +21,20 @@ const BlogIndex = ({ data }, location) => {
         title="Posts"
         keywords={[`devlog`, `blog`, `gatsby`, `javascript`, `react`]}
       />
+
       {/* <Bio /> */}
-      {data.site.siteMetadata.description && (
+      <div className="hero">
+        <img src="/hero/hero-mobile.svg" className="hero-mobile" />
+        <p>{data.site.siteMetadata.description}</p>
+      </div>
+
+      {/* {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
         </header>
-      )}
+      )} */}
       <div className="post-feed">
         {posts.map(({ node }) => {
           postCounter++

@@ -55,7 +55,7 @@ body {
 }
 @media (max-width: 850px) {
   .site-wrapper {
-    padding: 6vw;
+    padding: 8vw;
   }
 }
 
@@ -385,6 +385,17 @@ body {
     transition: transform 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
     transform: translateY(-4vw);
   }
+}
+
+/* Home page */
+
+.hero {
+  padding-top: calc(30vh - 60px);
+}
+
+.hero > p {
+  color: #b4b4b4;
+  width: 60vw;
 }
 
 /* Post Feed

@@ -8,9 +8,9 @@ const Layout = props => {
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
         <div className="site-head-container">
-          <div>
+          <Link to={`/`}>
             <img src="/kreme-logo-light.svg" className="nav-logo" />
-          </div>
+          </Link>
           <div
             className="nav-burger"
             // href={`https://www.google.co.th`}

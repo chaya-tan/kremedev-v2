@@ -451,7 +451,7 @@ body {
 
 .hero > .social {
   position: absolute;
-  top: calc(90vh - 60px);
+  top: calc(90vh - 100px);
 }
 
 .hero > .social > a {

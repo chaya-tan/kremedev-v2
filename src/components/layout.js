@@ -8,9 +8,12 @@ const Layout = props => {
     <div className={`site-wrapper ${toggleNav ? `site-head-open` : ``}`}>
       <header className="site-head">
         <div className="site-head-container">
-          <Link to={`/`}>
-            <img src="/kreme-logo-light.svg" className="nav-logo" />
-          </Link>
+          <div className="logo-container">
+            <Link to={`/`}>
+              <img src="/kreme-logo-light.svg" className="nav-logo" />
+            </Link>
+          </div>
+
           <div className="nav-burger" onClick={() => setToggleNav(!toggleNav)}>
             <div
               className="hamburger hamburger--collapse"

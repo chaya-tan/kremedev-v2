@@ -170,6 +170,11 @@ body {
   list-style: none;
 }
 
+.logo-container {
+  width: 100%;
+  padding: 2vw;
+}
+
 .site-head li {
   display: block;
   margin: 0;

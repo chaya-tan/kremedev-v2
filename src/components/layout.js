@@ -92,15 +92,39 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with{" "}
+        <a
+          href="https://twitter.com/kreme_q"
+          title="Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/social/twitter.svg" />
+        </a>
+        <a
+          href="https://github.com/chaya-tan"
+          title="Github"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/social/github.svg" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/chayatan/"
+          title="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/social/linkedin.svg" />
+        </a>
+        {/* &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash; */}
+        {/* Built with{" "}
         <a
           href="https://gatsbyjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Gatsby
-        </a>
+        </a> */}
       </footer>
     </div>
   )

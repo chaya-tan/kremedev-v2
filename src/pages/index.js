@@ -24,9 +24,36 @@ const BlogIndex = ({ data }, location) => {
 
       {/* <Bio /> */}
       <div className="hero">
+        <div className="email">HELLO@KREME.DEV</div>
         <img src="/hero/hero-mobile.svg" className="hero-mobile" />
         <img src="/hero/hero-desktop.svg" className="hero-desktop" />
         <p>{data.site.siteMetadata.description}</p>
+        <div className="social">
+          <a
+            href="https://twitter.com/kreme_q"
+            title="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/social/twitter.svg" />
+          </a>
+          <a
+            href="https://github.com/chaya-tan"
+            title="Github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/social/github.svg" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/chayatan/"
+            title="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/social/linkedin.svg" />
+          </a>
+        </div>
       </div>
 
       {/* {data.site.siteMetadata.description && (

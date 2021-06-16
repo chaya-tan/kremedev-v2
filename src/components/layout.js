@@ -11,11 +11,7 @@ const Layout = props => {
           <Link to={`/`}>
             <img src="/kreme-logo-light.svg" className="nav-logo" />
           </Link>
-          <div
-            className="nav-burger"
-            // href={`https://www.google.co.th`}
-            onClick={() => setToggleNav(!toggleNav)}
-          >
+          <div className="nav-burger" onClick={() => setToggleNav(!toggleNav)}>
             <div
               className="hamburger hamburger--collapse"
               aria-label="Menu"
@@ -29,61 +25,17 @@ const Layout = props => {
           </div>
           <nav id="swup" class="site-head-left">
             <ul className="nav" role="menu">
-              {/* <li className="nav-home nav-current" role="menuitem">
-                <Link to={`/`}>Home</Link>
-              </li> */}
               <li className="nav-about" role="menuitem">
-                <Link to={`/about`}>About</Link>
+                <Link to={`/about`}>ABOUT</Link>
               </li>
               <li className="nav-elements" role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
+                <Link to={`/elements`}>ELEMENTS</Link>
               </li>
               <li className="nav-tags" role="menuitem">
-                <Link to={`/tags`}>Tags</Link>
+                <Link to={`/tags`}>TAGS</Link>
               </li>
             </ul>
           </nav>
-          {/* <div className="site-head-center">
-            <Link className="site-head-logo" to={`/`}>
-              {title}
-            </Link>
-          </div> */}
-          {/* <div className="site-head-right">
-            <div className="social-links">
-              <a
-                href="https://www.facebook.com"
-                title="Facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-              <a
-                href="https://twitter.com"
-                title="Twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-              <Link
-                to={`/rss.xml`}
-                title="RSS"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                RSS
-              </Link>
-              <a
-                href="https://github.com/vaporwavy/gatsby-london-after-midnight"
-                title="GitHub"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
-          </div> */}
         </div>
       </header>
       <main id="site-main" className="site-main">
@@ -92,7 +44,7 @@ const Layout = props => {
         </div>
       </main>
       <footer className="site-foot">
-        <a
+        {/* <a
           href="https://twitter.com/kreme_q"
           title="Twitter"
           target="_blank"
@@ -115,15 +67,6 @@ const Layout = props => {
           rel="noopener noreferrer"
         >
           <img src="/social/linkedin.svg" />
-        </a>
-        {/* &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash; */}
-        {/* Built with{" "}
-        <a
-          href="https://gatsbyjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Gatsby
         </a> */}
       </footer>
     </div>

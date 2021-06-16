@@ -25,6 +25,7 @@ const BlogIndex = ({ data }, location) => {
       {/* <Bio /> */}
       <div className="hero">
         <img src="/hero/hero-mobile.svg" className="hero-mobile" />
+        <img src="/hero/hero-desktop.svg" className="hero-desktop" />
         <p>{data.site.siteMetadata.description}</p>
       </div>
 

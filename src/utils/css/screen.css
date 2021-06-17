@@ -27,7 +27,7 @@ body {
   /* font-family: 'Muli', sans-serif; */
   font-family: var(--font-sans-serif);
   /* background: var(--color-bg); */
-  background-image: url("/bg-mobile-4x.jpg");
+  background-image: url("/bg-mobile-4x.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

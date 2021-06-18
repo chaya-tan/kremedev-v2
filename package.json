@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-london-after-midnight",
+  "name": "kremedev-v2",
   "private": true,
-  "description": "A custom, image-centric theme for Gatsby",
+  "description": "A personal site",
   "version": "1.0.2",
-  "author": "Vaporwavy <i@ttv8.me> (https://vaporwavy.io)",
+  "author": "Kreme <hello@kreme.dev> (https://www.kreme.dev)",
   "bugs": {
     "url": "https://github.com/vaporwavy/gatsby-london-after-midnight/issues"
   },

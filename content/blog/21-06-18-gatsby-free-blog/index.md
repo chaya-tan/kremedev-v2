@@ -79,6 +79,8 @@ There are many ways to use JAMstack e.g. Next.js, Nuxt.js and Gridsome. I choose
 - I love to store content in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) language so I can move my content easily from site to site (just copy files!)
 - Many plugins available and they are FREE :)
 
+![How gatsby works](./how-gatsby-work.png)
+
 ---
 
 ### Start building

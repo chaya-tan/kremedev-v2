@@ -37,8 +37,15 @@ const AboutPage = ({ data }, location) => {
           <h3>My story</h3>
           <p>
             I'm an <i>ex-motorpunk</i> from country side that came to my
-            country's capital 10 years ago to upgrade education profile.
+            country's capital in 2013 to upgrade education profile.
           </p>
+          <figure className="kg-card kg-image-card">
+            <img src="https://images.unsplash.com/photo-1558981359-219d6364c9c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2550&q=80" />
+            <figcaption>
+              wow, cool, but I'm not the man in the image, thank you Unsplash
+              for the image
+            </figcaption>
+          </figure>
           <p>
             I got more than education profile from here. I just dicovered that I
             know nothing compared to most friend here. I chase all
@@ -51,6 +58,10 @@ const AboutPage = ({ data }, location) => {
             content, I got new community that have common interests with me
             (They go to all events as I do)
           </p>
+          <figure className="kg-card kg-image-card">
+            <img src="/about/2015-startup-idol.jpeg" />
+            <figcaption>Me, as a designer in the startup idol event</figcaption>
+          </figure>
           <p>
             From the new community, I got opportinity to have startup marketing
             experience from
@@ -62,6 +73,19 @@ const AboutPage = ({ data }, location) => {
             <a href="https://www.facebook.com/yuhei.saito.5">Yuhei Saito</a>,
             grow users from 0 to over 100,000 users in 6 months
           </p>
+          <p>
+            In 2016, Before being a senior student, I have to do some
+            internship, I know that I don't want to work in factories so I use
+            my UI design skill to work as a front-end developer in{" "}
+            <a href="https://www.thomsonreuters.com/en.html">Thomson Reuters</a>
+            . I got this opportunity from my second great boss,{" "}
+            <a href="https://www.facebook.com/pasak">Mr.Pasak Senawongse</a>.
+            That's where my software development journey begin.
+          </p>
+          <figure className="kg-card kg-image-card">
+            <img src="/about/2016-thomson-rueters.jpeg" />
+            <figcaption>Me, Mr.Pasak and the team</figcaption>
+          </figure>
           <p>
             4 years later, I graduated from{" "}
             <a href="https://www.chula.ac.th/en/">Chulalongkorn University</a>{" "}
@@ -117,28 +141,6 @@ const AboutPage = ({ data }, location) => {
             <li>Adobe illustrator</li>
             <li>Adobe photoshop</li>
           </ul>
-          <hr />
-          <h3 id="dynamic-styles">Dynamic styles</h3>
-          <p>
-            London comes with photo-centric main layout best suited to
-            photography, graphics portfolios and other image-heavy uses.
-          </p>
-          <p>
-            Both post and page templates are light and minimal, with all the
-            focus on the content while the design of the theme gets out of the
-            way. Beneath the hood, London enjoys the full power of the{" "}
-            <a href="https://docs.ghost.org/api/handlebars-themes/">
-              Ghost Handlebars Theme API
-            </a>{" "}
-            to provide limitless customisation options and dynamic styles.
-          </p>
-          <p>
-            Don't forget to check out the{" "}
-            <a href="https://docs.ghost.org/integrations/">
-              Ghost Integrations Directory
-            </a>{" "}
-            for more ways to integrate Ghost with your favourite services.
-          </p>
         </div>
       </article>
     </Layout>
